@@ -152,36 +152,36 @@
                         	<li class="item-thumbs span4 screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                                <a class="hover-wrap fancybox"  title="The City" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-01-full.jpg">
+                                <a class="hover-wrap fancybox"  title="Hutan" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-01-full.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-01.jpg" alt="Hutan adalah tempat yang ditumbuhi semak belukar dan pohon-pohon yang tinggi menjulang. Pecahkan setiap teka-teki yang muncul dan kalahkah Monster Spike!">
                             </li>
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span4 screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" title="The Office" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-02-full.jpg">
+                            	<a class="hover-wrap fancybox" title="Gua" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-02-full.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-02.jpg" alt="Gua adalah tempat yang sangat rapuh dan tempat hantu-hantu bersemayam. Pacahkan misteri dan kalahkan Ghost yang muncul!">
                             </li>
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span4 screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" title="The Mountains" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-03-full.jpg">
+                            	<a class="hover-wrap fancybox" title="Kastil" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-03-full.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-03.jpg" alt="Kastil ini dihuni oleh seorang yang sangat jahat. Lord of Math harus dikalahkan untuk dapat menyelamatkan Putri. Kalahkan juga Monster Plus dan Minus yang menghalangi!">
                             </li>
                         	<!-- End Item Project -->
                         </ul>
