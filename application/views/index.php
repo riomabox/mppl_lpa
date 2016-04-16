@@ -504,9 +504,9 @@ if(validation_errors()!=NULL){
                 <div class="tab-content" style="background-color: white">
                     <div class="tab-pane fade in active" id="tab1">
                         <form action="<?php echo base_url(); ?>dashboard/account" method="POST" name="registerForm" id="registerForm" enctype="multipart/form-data">
-                            <div style="float: left; width: 50%;">
-                                Nama:<span class="verify" style="display:inline-block; width:8px; height:8px; z-index: 10000000 background-image: http://localhost/mppl-lpa/trunk/assets/_include/img/yes.png"</span><br>
-                                    <input type="text" name="nama" id="nama" placeholder="Nama Lengkap" value="<?php echo set_value('nama'); ?>" required><br>
+                            <div style="float: left; width: 55%;">
+                                Nama:<br>
+                                    <input type="text" name="nama" id="nama" placeholder="Nama Lengkap" value="<?php echo set_value('nama'); ?>" required>&nbsp;&nbsp;&nbsp;&nbsp;<span id="nama_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
                             </div>
                             <div class="fileinput fileinput-new text-center" data-provides="fileinput" style="float: right; width: 40%;">
                               <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 175px; height: 200px;"></div>
@@ -540,16 +540,16 @@ if(validation_errors()!=NULL){
                                     </select>
                             </div>
                             <div style="float: left; width: 100%;">
-                                Email:<span id="email_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
-                                    <input type="text" name="email" id="email" placeholder="Email" value="<?php echo set_value('email'); ?>" required><br>
+                                Email:<br>
+                                    <input type="text" name="email" id="email" placeholder="Email" value="<?php echo set_value('email'); ?>" required>&nbsp;&nbsp;&nbsp;&nbsp;<span id="email_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
                             </div>                          
                             <div style="float: left; width: 100%;">
                                 Username:<br>
-                                    <input type="text" name="username" placeholder="Username" required><br>
+                                    <input type="text" name="username" placeholder="Username" id="username" value="<?php echo set_value('username'); ?>" required>&nbsp;&nbsp;&nbsp;&nbsp;<span id="username_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
                             </div>
                             <div style="float: left; width: 100%;">
-                                Password:<span id="password_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
-                                    <input type="password" name="password" id="password" placeholder="Password" value="<?php echo set_value('password'); ?>" required><br>
+                                Password:<br>
+                                    <input type="password" name="password" id="password" placeholder="Password" value="<?php echo set_value('password'); ?>" required>&nbsp;&nbsp;&nbsp;&nbsp;<span id="password_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
                             </div>
                             <div style="float: left; width: 100%;">
                                 Konfirmasi Password:<br>
@@ -589,11 +589,10 @@ if(validation_errors()!=NULL){
     
 <script type="text/javascript">
 $(document).ready(function(){
-		
 	$("#nama").blur(function(){
-        var username = $("#nama").val();
+        var nama = $("#nama").val();
         
-        if(($("#nama").val().length >=5)
+        if($("#nama").val().length >=5)
         {
          
             if(isValidFullname(nama))
@@ -610,8 +609,30 @@ $(document).ready(function(){
         else {
             $("#nama_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/no.png')" });
         }
-
     });
+
+    $("#username").blur(function(){
+        var username = $("#username").val();
+
+        if(($("#username").val().length >=4) && ($("#username").val().length <=10))
+        {
+
+            if(isValidUsername(username))
+            {
+               $("#username_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/yes.png')" });
+               email_con=true;
+               //register_show();
+            } else {
+                $("#username_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/no.png')" });
+            }
+
+        }
+        else {
+            $("#username_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/no.png')" });
+        }
+
+    });    
+    
 	$("#email").blur(function(){
         var email = $("#email").val();
         
@@ -642,7 +663,7 @@ $(document).ready(function(){
          
             if(isValidPassword(password))
             {
-               $("#password_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/yes.png')')" });
+               $("#password_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/yes.png')" });
                email_con=true;
                //register_show();
             } else {
@@ -658,12 +679,12 @@ $(document).ready(function(){
     });
 });
 
-function isValidFullname(fullname) {
+function isValidFullname(nama) {
  		var pattern = new RegExp(/^[a-zA-Z _-]{7,50}$/i);
  		return pattern.test(nama);
 	}
 function isValidUsername(username) {
- 		var pattern = new RegExp(/^[a-zA-Z0-9_-]{4,10}$/i);
+ 		var pattern = new RegExp(/^[a-zA-Z0-9_-]{4,18}$/i);
  		return pattern.test(username);
 	}
 function isValidPassword(password) {

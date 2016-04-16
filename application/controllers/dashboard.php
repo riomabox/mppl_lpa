@@ -138,6 +138,18 @@ class Dashboard extends CI_Controller {
 		}
     }
     
+    public function username_sudah_terpakai(){
+        $this->load->model('dashboardModel');
+        $username=$this->input->post('username');
+        $result=$this->dashboardModel->check_username_exist($username);
+        if($result){
+			$this->form_validation->set_message('username_sudah_terpakai', 'Username already exist.');
+			return false;
+		}else{
+			return true;
+		}
+    }    
+    
     public function logout(){
         $this->load->library('session');
         $this->load->view('logout');
