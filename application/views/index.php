@@ -323,9 +323,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">CTO/Founder</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-01.jpg" alt="Divi Jaya">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-01.jpg" alt="John Doe">
             </div>
-            <h3 class="profile-name">Divi Jaya</h3>
+            <h3 class="profile-name">Divi</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
@@ -345,9 +345,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Creative Director</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-02.jpg" alt="Fikri Alauddin">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-02.jpg" alt="Jane Helf">
             </div>
-            <h3 class="profile-name">Fikri Alauddin</h3>
+            <h3 class="profile-name">Fikri</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
@@ -367,9 +367,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Usaid SC">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
             </div>
-            <h3 class="profile-name">Usaid SC</h3>
+            <h3 class="profile-name">Usaid</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
@@ -389,9 +389,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-04.jpg" alt="Putro Satrio">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-04.jpg" alt="Joshua Insanus">
             </div>
-            <h3 class="profile-name">Putro Satrio</h3>
+            <h3 class="profile-name">Putro</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
@@ -411,9 +411,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-05.jpg" alt="Azkaa (Udin)">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-05.jpg" alt="Joshua Insanus">
             </div>
-            <h3 class="profile-name">Azkaa (Udin)</h3>
+            <h3 class="profile-name">Azkaa</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
@@ -435,7 +435,7 @@ if(validation_errors()!=NULL){
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;MPPL 2016. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Little Prince Azkaa Game</a> by <a href="#" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">GM Production</a></p>
+	<p class="credits">&copy;MPPL 2016. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Little Prince Azkaa Game</a> by <a href="#" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Little Prince Azkaa Team</a></p>
 </footer>
 <!-- End Footer -->
 
@@ -504,9 +504,9 @@ if(validation_errors()!=NULL){
                 <div class="tab-content" style="background-color: white">
                     <div class="tab-pane fade in active" id="tab1">
                         <form action="<?php echo base_url(); ?>dashboard/account" method="POST" name="registerForm" id="registerForm" enctype="multipart/form-data">
-                            <div style="float: left; width: 50%;">
-                                Nama:<span class="verify" style="display:inline-block; width:8px; height:8px; z-index: 10000000 background-image: http://localhost/mppl-lpa/trunk/assets/_include/img/yes.png"</span><br>
-                                    <input type="text" name="nama" id="nama" placeholder="Nama Lengkap" value="<?php echo set_value('nama'); ?>" required><br>
+                            <div style="float: left; width: 55%;">
+                                Nama:<br>
+                                    <input type="text" name="nama" id="nama" placeholder="Nama Lengkap" value="<?php echo set_value('nama'); ?>" required>&nbsp;&nbsp;&nbsp;&nbsp;<span id="nama_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
                             </div>
                             <div class="fileinput fileinput-new text-center" data-provides="fileinput" style="float: right; width: 40%;">
                               <div class="fileinput-preview thumbnail" data-trigger="fileinput" style="width: 175px; height: 200px;"></div>
@@ -540,16 +540,16 @@ if(validation_errors()!=NULL){
                                     </select>
                             </div>
                             <div style="float: left; width: 100%;">
-                                Email:<span id="email_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
-                                    <input type="text" name="email" id="email" placeholder="Email" value="<?php echo set_value('email'); ?>" required><br>
+                                Email:<br>
+                                    <input type="text" name="email" id="email" placeholder="Email" value="<?php echo set_value('email'); ?>" required>&nbsp;&nbsp;&nbsp;&nbsp;<span id="email_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
                             </div>                          
                             <div style="float: left; width: 100%;">
                                 Username:<br>
-                                    <input type="text" name="username" placeholder="Username" required><br>
+                                    <input type="text" name="username" placeholder="Username" id="username" value="<?php echo set_value('username'); ?>" required>&nbsp;&nbsp;&nbsp;&nbsp;<span id="username_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
                             </div>
                             <div style="float: left; width: 100%;">
-                                Password:<span id="password_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
-                                    <input type="password" name="password" id="password" placeholder="Password" value="<?php echo set_value('password'); ?>" required><br>
+                                Password:<br>
+                                    <input type="password" name="password" id="password" placeholder="Password" value="<?php echo set_value('password'); ?>" required>&nbsp;&nbsp;&nbsp;&nbsp;<span id="password_verify" class="verify" style="display:inline-block; width:16px; height:16px;"></span><br>
                             </div>
                             <div style="float: left; width: 100%;">
                                 Konfirmasi Password:<br>
@@ -589,11 +589,10 @@ if(validation_errors()!=NULL){
     
 <script type="text/javascript">
 $(document).ready(function(){
-		
 	$("#nama").blur(function(){
-        var username = $("#nama").val();
+        var nama = $("#nama").val();
         
-        if(($("#nama").val().length >=5)
+        if($("#nama").val().length >=5)
         {
          
             if(isValidFullname(nama))
@@ -610,8 +609,30 @@ $(document).ready(function(){
         else {
             $("#nama_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/no.png')" });
         }
-
     });
+
+    $("#username").blur(function(){
+        var username = $("#username").val();
+
+        if(($("#username").val().length >=4) && ($("#username").val().length <=10))
+        {
+
+            if(isValidUsername(username))
+            {
+               $("#username_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/yes.png')" });
+               email_con=true;
+               //register_show();
+            } else {
+                $("#username_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/no.png')" });
+            }
+
+        }
+        else {
+            $("#username_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/no.png')" });
+        }
+
+    });    
+    
 	$("#email").blur(function(){
         var email = $("#email").val();
         
@@ -642,7 +663,7 @@ $(document).ready(function(){
          
             if(isValidPassword(password))
             {
-               $("#password_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/yes.png')')" });
+               $("#password_verify").css({ "background-image": "url('<?php echo base_url();?>assets/_include/img/yes.png')" });
                email_con=true;
                //register_show();
             } else {
@@ -658,12 +679,12 @@ $(document).ready(function(){
     });
 });
 
-function isValidFullname(fullname) {
+function isValidFullname(nama) {
  		var pattern = new RegExp(/^[a-zA-Z _-]{7,50}$/i);
  		return pattern.test(nama);
 	}
 function isValidUsername(username) {
- 		var pattern = new RegExp(/^[a-zA-Z0-9_-]{4,10}$/i);
+ 		var pattern = new RegExp(/^[a-zA-Z0-9_-]{4,18}$/i);
  		return pattern.test(username);
 	}
 function isValidPassword(password) {

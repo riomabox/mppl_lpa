@@ -73,10 +73,12 @@ class Dashboard extends CI_Controller {
 
     public function account() {
         $this->load->helper('security');
-        $this->form_validation->set_rules('nama','Fullname','trim|required');
+        $this->form_validation->set_rules('nama','Nama','trim|required');
+        $this->form_validation->set_rules('username','Username','trim|required|regex_match[/^[a-zA-Z0-9_-~!@#$%^&*()+=]{4,10}$/]|callback_username_sudah_terpakai');
         $this->form_validation->set_rules('email','Email','trim|required|xss_clean|valid_email|callback_email_sudah_terpakai');
         $this->form_validation->set_rules('password','Password','trim|required|min_length[6]|max_length[32]|regex_match[/^[a-zA-Z0-9_-~!@#$%^&*()+=]{6,32}$/]');
         $this->form_validation->set_rules('confirm_password', 'Password Confirmation', 'trim|required|matches[password]|regex_match[/^[a-zA-Z0-9_-~!@#$%^&*()+=]{6,32}$/]');
+ 
         
         if($this->form_validation->run() == false){
             $this->form_validation->set_message('Incorrect Email.');
@@ -137,6 +139,18 @@ class Dashboard extends CI_Controller {
 			return true;
 		}
     }
+    
+    public function username_sudah_terpakai(){
+        $this->load->model('dashboardModel');
+        $username=$this->input->post('username');
+        $result=$this->dashboardModel->check_username_exist($username);
+        if($result){
+			$this->form_validation->set_message('username_sudah_terpakai', 'Username already exist.');
+			return false;
+		}else{
+			return true;
+		}
+    }    
     
     public function logout(){
         $this->load->library('session');

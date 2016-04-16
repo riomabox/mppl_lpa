@@ -40,10 +40,11 @@ class dashboardModel extends CI_Model {
 			return false;
         }
     }
+    
 	public function check_username_exist($username)
     {
         $this->db->where("username",$username);
-        $query=$this->db->get("users");
+        $query=$this->db->get("guru");
         if($query->num_rows()>0){
             return true;
         }else{
