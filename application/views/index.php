@@ -323,9 +323,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">CTO/Founder</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-01.jpg" alt="John Doe">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-01.jpg" alt="Divi Jaya">
             </div>
-            <h3 class="profile-name">Divi</h3>
+            <h3 class="profile-name">Divi Jaya</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
@@ -345,9 +345,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Creative Director</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-02.jpg" alt="Jane Helf">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-02.jpg" alt="Fikri Alauddin">
             </div>
-            <h3 class="profile-name">Fikri</h3>
+            <h3 class="profile-name">Fikri Alauddin</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
@@ -367,9 +367,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Usaid SC">
             </div>
-            <h3 class="profile-name">Usaid</h3>
+            <h3 class="profile-name">Usaid SC</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
@@ -389,9 +389,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-04.jpg" alt="Putro Satrio">
             </div>
-            <h3 class="profile-name">Putro</h3>
+            <h3 class="profile-name">Putro Satrio</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
@@ -411,9 +411,9 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Lead Designer</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-05.jpg" alt="Azkaa (Udin)">
             </div>
-            <h3 class="profile-name">Azkaa</h3>
+            <h3 class="profile-name">Azkaa (Udin)</h3>
             <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
             Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
             	
