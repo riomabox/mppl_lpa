@@ -16,11 +16,13 @@ class Dashboard extends CI_Controller {
 
 
     public function checkLoginStudents() {
+        $this->load->helper('security');
         $this->form_validation->set_rules('username_murid','Username','required');
-        $this->form_validation->set_rules('password_murid','Password','required|callback_verifyStudents');
+        $this->form_validation->set_rules('password_murid','Password','trim|required|min_length[6]|max_length[32]|regex_match[/^[a-zA-Z0-9_-~!@#$%^&*()+=]{6,32}$/]|callback_verifyStudents');
         
         if($this->form_validation->run() == false){
-            redirect('dashboard');
+            $this->index();
+            //redirect('dashboard');
         }
         else{
             redirect('dashboard/students');
@@ -28,11 +30,13 @@ class Dashboard extends CI_Controller {
     }
 
     public function checkLoginTeacher() {
+        $this->load->helper('security');
         $this->form_validation->set_rules('username_guru','Username','required');
-        $this->form_validation->set_rules('password_guru','Password','required|callback_verifyTeacher');
+        $this->form_validation->set_rules('password_guru','Password','trim|required|min_length[6]|max_length[32]|regex_match[/^[a-zA-Z0-9_-~!@#$%^&*()+=]{6,32}$/]|callback_verifyTeacher');
         
         if($this->form_validation->run() == false){
-            redirect('dashboard');
+            $this->index();
+            //redirect('dashboard');
             //echo "string";
         }
         else{

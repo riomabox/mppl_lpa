@@ -700,7 +700,7 @@ function isValidEmailAddress(emailAddress) {
 
 <script>
 $(document).ready(function(){
-    $(".alert").addClass("in").fadeOut(10000);
+    $(".alert").addClass("in").fadeOut(25000);
 });    
 </script>
 <!-- End Js -->

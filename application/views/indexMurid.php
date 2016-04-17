@@ -157,7 +157,7 @@
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-01.jpg" alt="Hutan adalah tempat yang ditumbuhi semak belukar dan pohon-pohon yang tinggi menjulang. Pecahkan setiap teka-teki yang muncul dan kalahkah Monster Spike!">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-01.jpg" alt="<p>Hutan adalah tempat yang ditumbuhi semak belukar dan pohon-pohon yang tinggi menjulang. Pecahkan setiap teka-teki yang muncul dan kalahkah Monster Spike!</p><a href='#'>Level 1</a><a href='#' style='margin-left: 33%;'>Level 2</a><a href='#' style='margin-left: 33%;'>Level 3</a>">
                             </li>
                         	<!-- End Item Project -->
                             
@@ -169,7 +169,7 @@
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-02.jpg" alt="Gua adalah tempat yang sangat rapuh dan tempat hantu-hantu bersemayam. Pacahkan misteri dan kalahkan Ghost yang muncul!">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-02.jpg" alt="<p>Gua adalah tempat yang sangat rapuh dan tempat hantu-hantu bersemayam. Pacahkan misteri dan kalahkan Ghost yang muncul!</p><a href='#'>Level 1</a><a href='#' style='margin-left: 33%;'>Level 2</a><a href='#' style='margin-left: 33%;'>Level 3</a>">
                             </li>
                         	<!-- End Item Project -->
                             
@@ -181,7 +181,7 @@
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-03.jpg" alt="Kastil ini dihuni oleh seorang yang sangat jahat. Lord of Math harus dikalahkan untuk dapat menyelamatkan Putri. Kalahkan juga Monster Plus dan Minus yang menghalangi!">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-03.jpg" alt="<p>Kastil ini dihuni oleh seorang yang sangat jahat. Lord of Math harus dikalahkan untuk dapat menyelamatkan Putri. Kalahkan juga Monster Plus dan Minus yang menghalangi!</p><a href='#'>Level 1</a><a href='#' style='margin-left: 33%;'>Level 2</a><a href='#' style='margin-left: 33%;'>Level 3</a>">
                             </li>
                         	<!-- End Item Project -->
                         </ul>
