@@ -149,12 +149,13 @@
                     	<ul id="thumbs">
                         
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span4 screenshot">
+                        	<li class="item-thumbs span4 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <!-- Fancybox - Gallery Enabled - Title - Full Image -->
                                 <a class="hover-wrap fancybox"  title="Hutan" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-01-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">HUTAN</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-01.jpg" alt="<p>Hutan adalah tempat yang ditumbuhi semak belukar dan pohon-pohon yang tinggi menjulang. Pecahkan setiap teka-teki yang muncul dan kalahkah Monster Spike!</p><div style='overflow: auto; margin-top: 3%;'>
@@ -166,11 +167,12 @@
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span4 screenshot">
+                        	<li class="item-thumbs span4 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<a class="hover-wrap fancybox" title="Gua" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-02-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">GUA</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-02.jpg" alt="<p>Gua adalah tempat yang sangat rapuh dan tempat hantu-hantu bersemayam. Pacahkan misteri dan kalahkan Ghost yang muncul!</p><div style='overflow: auto; margin-top: 3%;'>
@@ -182,11 +184,12 @@
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span4 screenshot">
+                        	<li class="item-thumbs span4 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<a class="hover-wrap fancybox" title="Kastil" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-03-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">KASTIL</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-03.jpg" alt="<p>Kastil ini dihuni oleh seorang yang sangat jahat. Lord of Math harus dikalahkan untuk dapat menyelamatkan Putri. Kalahkan juga Monster Plus dan Minus yang menghalangi!</p><div style='overflow: auto; margin-top: 3%;'>
@@ -211,7 +214,7 @@
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;MPPL 2016. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Little Prince Azkaa Game</a> by <a href="#" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Little Prince Azkaa Team</a></p>
+	<p class="credits">&copy;MPPL 2016. <a href=# title="NO TITLE">Little Prince Azkaa Game</a> by <a href="#" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Little Prince Azkaa Team</a></p>
 </footer>
 <!-- End Footer -->
 

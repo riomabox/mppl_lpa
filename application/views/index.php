@@ -329,17 +329,18 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">System Analyst</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-01.jpg" alt="John Doe">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-01.jpg" alt="Divi Jaya">
             </div>
             <h3 class="profile-name">Divi Jaya</h3>
             <p class="profile-description">Berpikirlah seakan-akan kelompok sebagai satu tubuh. Saling terikat dan tak dapat dipisahkan. Rencana tanpa persiapan sama dengan bunuh diri. Persiapan yang terlalu lama juga sia-sia. Anda harus berdiri di tengah-tengah agar membuat keduanya berjalan seimbang. Matangkan persiapan, Koordinasi, lalu Eksekusi.</p>
-            	
+            <!--	
             <div class="social">
             	<ul class="social-icons">
                 	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
                 </ul>
             </div>
+			-->
         </div>
         <!-- End Profile -->
         
@@ -350,17 +351,19 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Game Programmer</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-02.jpg" alt="Jane Helf">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-02.jpg" alt="Fikri Aladuddin">
             </div>
             <h3 class="profile-name">Fikri Alauddin</h3>
             <p class="profile-description">Hiduplah seperti memainkan sebuah game. Saat Anda lemah, Anda harus berjuang untuk menjadi lebih kuat. Jika Anda tidak dapat menahan pedihnya perjuangan, jangan salahkan jika kelak Anda menanggung pedihnya kelemahan.</p>
             	
+            <!--	
             <div class="social">
             	<ul class="social-icons">
-                	<li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
                 </ul>
             </div>
+			-->
         </div>
         <!-- End Profile -->
         
@@ -371,17 +374,19 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Web Designer</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Usaid SC">
             </div>
             <h3 class="profile-name">Usaid SC</h3>
             <p class="profile-description">“Aku ingin mencintaimu dengan sederhana… seperti kata yang tak sempat diucapkan kayu kepada api yang menjadikannya abu… Aku ingin mencintaimu dengan sederhana… seperti isyarat yang tak sempat dikirimkan awan kepada hujan yang menjadikannya tiada…” (Khalil Gibran)</p>
             	
+            <!--	
             <div class="social">
             	<ul class="social-icons">
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
                 </ul>
             </div>
+			-->
         </div>
         <!-- End Profile -->
         
@@ -392,17 +397,19 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">Web Programmer</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-04.jpg" alt="Joshua Insanus">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-04.jpg" alt="Putro Satrio">
             </div>
             <h3 class="profile-name">Putro Satrio</h3>
             <p class="profile-description">Lampaui pencapaian yeng telah Anda peroleh. Berevolusi dan menjadi lebih baik. Kreativitas sering didapat dengan cara yang tidak lazim. Jika Anda ingin menjadi kreatif, maka bersiap-siaplah menjadi tidak lazim. Orang lain sering menyebutnya tidak lazim. Namun saya, lebih senang menyebutnya EKSENTRIK.</p>
             	
+            <!--	
             <div class="social">
             	<ul class="social-icons">
-                	<li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
                 </ul>
             </div>
+			-->
         </div>
         <!-- End Profile -->
         
@@ -413,17 +420,19 @@ if(validation_errors()!=NULL){
                     <span class="overlay-img"></span>
                     <span class="overlay-text-thumb">DB Administrator</span>
                 </div>
-                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-05.jpg" alt="Joshua Insanus">
+                <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-05.jpg" alt="Azkaa (Udin)">
             </div>
             <h3 class="profile-name">Azkaa (Udin)</h3>
             <p class="profile-description">Jika Anda punya kendali atas data-data di dunia, Anda mungkin dapat memegang kendali masa depan. Hidup itu di masa lalu, masa kini dan masa depan bisa jadi hanyalah sebuah mimpi. Mimpi terbesarku adalah mengarungi ruang dan waktu. Karena sejatinya, Aku adalah Lelaki Pemimpi!</p>
             	
+            <!--	
             <div class="social">
             	<ul class="social-icons">
-                	<li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
                 </ul>
             </div>
+			-->
         </div>
         <!-- End Profile -->
         <div class="span1 profile"></div>
@@ -436,7 +445,7 @@ if(validation_errors()!=NULL){
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;MPPL 2016. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Little Prince Azkaa Game</a> by <a href="#" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Little Prince Azkaa Team</a></p>
+	<p class="credits">&copy;MPPL 2016. <a href=# title="NO TITLE">Little Prince Azkaa Game</a> by <a href="#" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Little Prince Azkaa Team</a></p>
 </footer>
 <!-- End Footer -->
 
