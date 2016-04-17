@@ -214,7 +214,7 @@
 
 <!-- Footer -->
 <footer>
-	<p class="credits">&copy;MPPL 2016. <a href=# title="NO TITLE">Little Prince Azkaa Game</a> by <a href="#" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Little Prince Azkaa Team</a></p>
+	<p class="credits">&copy;MPPL 2016. <a href=# title="NO TITLE">Little Prince Azkaa Game</a> by <a href="#" title="GM Production">GM Production</a></p>
 </footer>
 <!-- End Footer -->
 
