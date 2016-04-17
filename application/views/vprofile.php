@@ -41,6 +41,14 @@
             </div>
             </td>
          </tr>
+           <tr>
+          <td>Tanggal Lahir</td>
+          <td>
+            <div class="col-sm-6">
+                <input type="date" name="tanggal_lahir" class="form-control" required value="<?php echo $guru->tanggal_lahir; ?>">
+            </div>
+            </td>
+         </tr>
          <tr>
           <td>Jenis Kelamin</td>
           <td> <div class="col-sm-6">

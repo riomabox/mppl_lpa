@@ -8,6 +8,7 @@
         $no = "";
         $nm = "";
         $un = "";
+        $tgl = "";
         $ps = "";
         $jk = "";
     }
@@ -18,6 +19,7 @@
             $no = $m->nomor_induk;
             $nm = $m->nama_murid;
             $un = $m->username;
+            $tgl = $m->tanggal_lahir;
             $ps = $m->password;
             $jk = $m->jenis_kelamin;
         }
@@ -65,13 +67,29 @@
             </div>
             </td>
          </tr>
+           <tr>
+          <td>Tanggal Lahir</td>
+          <td>
+            <div class="col-sm-6">
+                <input type="date" name="tanggal_lahir" class="form-control" required value="<?php echo $tgl; ?>">
+            </div>
+            </td>
+         </tr>
          <tr>
           <td>Jenis Kelamin</td>
           <td> <div class="col-sm-6">
           <select name="jenis_kelamin_murid" required="requreid" class="form-control">
-           <option></option>
-           <option value="L">Laki - laki</option>
-           <option value="P">Perempuan</option>
+              <?php if($jk == 'L'){?>
+            <option value="L">Laki - laki</option>
+            <option value="P">Perempuan</option>
+              <?php }else if($jk == 'P'){?>
+            <option value="P">Perempuan</option>
+            <option value="L">Laki - laki</option>
+              <?php } else{ ?>
+            <option></option>
+            <option value="L">Laki - laki</option>
+            <option value="P">Perempuan</option>
+              <?php } ?>
           </select>
           </div>
           </td>
@@ -88,7 +106,7 @@
          <tr>
           <td colspan="2">
             <input type="submit" class="btn btn-success" value="Simpan">
-            <button type="reset" class="btn btn-default">Batal</button>
+            <!--<button type="reset" class="btn btn-default">Batal</button>-->
           </td>
          </tr>
        </table>

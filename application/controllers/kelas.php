@@ -119,6 +119,7 @@ class Kelas extends CI_Controller {
                 'nama_guru'     => $this->input->post('nama_guru'),
                 'username'      => $this->input->post('username'),
                 'password'      => $this->input->post('password'),
+                'tanggal_lahir'      => $this->input->post('tanggal_lahir'),
                 'jenis_kelamin' => $this->input->post('jenis_kelamin_guru'),
                 'email'         => $this->input->post('email')
             );

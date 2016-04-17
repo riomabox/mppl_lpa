@@ -36,7 +36,7 @@ class Murid extends CI_Controller {
 		$nama_murid					= addslashes($this->input->post('nama_murid'));
 		$username					= addslashes($this->input->post('username_murid'));
 		$password				= addslashes($this->input->post('password_murid'));
-		$tanggal_lahir				    = addslashes($this->input->post('tanggal_lahir_murid'));
+        $tanggal_lahir          = addslashes($this->input->post('tanggal_lahir'));
 		$jenis_kelamin				    = addslashes($this->input->post('jenis_kelamin_murid'));
 		
 
@@ -62,6 +62,7 @@ class Murid extends CI_Controller {
                 'tanggal_lahir' => $tanggal_lahir,
                 'jenis_kelamin' => $jenis_kelamin
             );
+            //echo var_dump($data);
             $this->mmurid->get_insert($data);
 			$this->session->set_flashdata("pesan", "<div class=\"alert alert-success\" id=\"alert\"><i class=\"glyphicon glyphicon-ok\"></i> Data berhasil di insert</div>");
 			redirect('murid');
