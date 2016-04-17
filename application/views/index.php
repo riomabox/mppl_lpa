@@ -331,7 +331,7 @@ if(validation_errors()!=NULL){
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-01.jpg" alt="John Doe">
             </div>
-            <h3 class="profile-name">Divi</h3>
+            <h3 class="profile-name">Divi Jaya</h3>
             <p class="profile-description">Berpikirlah seakan-akan kelompok sebagai satu tubuh. Saling terikat dan tak dapat dipisahkan. Rencana tanpa persiapan sama dengan bunuh diri. Persiapan yang terlalu lama juga sia-sia. Anda harus berdiri di tengah-tengah agar membuat keduanya berjalan seimbang. Matangkan persiapan, Koordinasi, lalu Eksekusi.</p>
             	
             <div class="social">
@@ -352,7 +352,7 @@ if(validation_errors()!=NULL){
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-02.jpg" alt="Jane Helf">
             </div>
-            <h3 class="profile-name">Fikri</h3>
+            <h3 class="profile-name">Fikri Alauddin</h3>
             <p class="profile-description">Hiduplah seperti memainkan sebuah game. Saat Anda lemah, Anda harus berjuang untuk menjadi lebih kuat. Jika Anda tidak dapat menahan pedihnya perjuangan, jangan salahkan jika kelak Anda menanggung pedihnya kelemahan.</p>
             	
             <div class="social">
@@ -373,7 +373,7 @@ if(validation_errors()!=NULL){
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
             </div>
-            <h3 class="profile-name">Usaid</h3>
+            <h3 class="profile-name">Usaid SC</h3>
             <p class="profile-description">“Aku ingin mencintaimu dengan sederhana… seperti kata yang tak sempat diucapkan kayu kepada api yang menjadikannya abu… Aku ingin mencintaimu dengan sederhana… seperti isyarat yang tak sempat dikirimkan awan kepada hujan yang menjadikannya tiada…” (Khalil Gibran)</p>
             	
             <div class="social">
@@ -394,7 +394,7 @@ if(validation_errors()!=NULL){
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-04.jpg" alt="Joshua Insanus">
             </div>
-            <h3 class="profile-name">Putro</h3>
+            <h3 class="profile-name">Putro Satrio</h3>
             <p class="profile-description">Lampaui pencapaian yeng telah Anda peroleh. Berevolusi dan menjadi lebih baik. Kreativitas sering didapat dengan cara yang tidak lazim. Jika Anda ingin menjadi kreatif, maka bersiap-siaplah menjadi tidak lazim. Orang lain sering menyebutnya tidak lazim. Namun saya, lebih senang menyebutnya EKSENTRIK.</p>
             	
             <div class="social">
@@ -415,7 +415,7 @@ if(validation_errors()!=NULL){
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-05.jpg" alt="Joshua Insanus">
             </div>
-            <h3 class="profile-name">Azkaa</h3>
+            <h3 class="profile-name">Azkaa (Udin)</h3>
             <p class="profile-description">Jika Anda punya kendali atas data-data di dunia, Anda mungkin dapat memegang kendali masa depan. Hidup itu di masa lalu, masa kini dan masa depan bisa jadi hanyalah sebuah mimpi. Mimpi terbesarku adalah mengarungi ruang dan waktu. Karena sejatinya, Aku adalah Lelaki Pemimpi!</p>
             	
             <div class="social">
