@@ -137,10 +137,10 @@ if(validation_errors()!=NULL){
         <nav id="menu">
         	<ul id="menu-nav">
             	<li class="current"><a href="#home-slider">Home</a></li>
-                <li><a href="#work">About Game</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#filter" data-toggle="modal" data-target="#login">Login</a></li>
-				<li><a href="#filter" data-toggle="modal" data-target="#register">Register</a></li>
+                <li><a href="#work">LPA</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#filter" data-toggle="modal" data-target="#login">Masuk</a></li>
+				<li><a href="#filter" data-toggle="modal" data-target="#register">Daftar</a></li>
             </ul>
         </nav>
         
@@ -155,7 +155,7 @@ if(validation_errors()!=NULL){
         <div class="row">
             <div class="span12">
                 <div class="title-page">
-                    <h2 class="title">About Game</h2>
+                    <h2 class="title">Little Prince Azkaa</h2>
                 </div>
             </div>
         </div>
@@ -168,9 +168,9 @@ if(validation_errors()!=NULL){
                 <nav id="options" class="work-nav">
                     <ul id="filters" class="option-set" data-option-key="filter">
                     	<li class="type-work">Review Game</li>
-                        <li><a href="#filter" data-option-value="*" class="selected">All</a></li>
-                        <li><a href="#filter" data-option-value=".screenshot">Screenshots</a></li>
-                        <li><a href="#filter" data-option-value=".video">Video</a></li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Semua</a></li>
+                        <li><a href="#filter" data-option-value=".screenshot">Arena Permainan</a></li>
+                        <li><a href="#filter" data-option-value=".video">Game Trailer</a></li>
                     </ul>
                 </nav>
                 <!-- End Filter -->
@@ -182,11 +182,12 @@ if(validation_errors()!=NULL){
                     	<ul id="thumbs">
                         
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 screenshot">
+                        	<li class="item-thumbs span3 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Hutan" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-01-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">HUTAN</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-01.jpg" alt="Hutan adalah tempat yang ditumbuhi semak belukar dan pohon-pohon yang tinggi menjulang. Pecahkan setiap teka-teki yang muncul dan kalahkah Monster Spike!">
@@ -194,11 +195,12 @@ if(validation_errors()!=NULL){
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 screenshot">
+                        	<li class="item-thumbs span3 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Gua" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-02-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">GUA</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-02.jpg" alt="Gua adalah tempat yang sangat rapuh dan tempat hantu-hantu bersemayam. Pacahkan misteri dan kalahkan Ghost yang muncul!">
@@ -206,11 +208,12 @@ if(validation_errors()!=NULL){
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 screenshot">
+                        	<li class="item-thumbs span3 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Kastil" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-03-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">KASTIL</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-03.jpg" alt="Kastil ini dihuni oleh seorang yang sangat jahat. Lord of Math harus dikalahkan untuk dapat menyelamatkan Putri. Kalahkan juga Monster Plus dan Minus yang menghalangi!">
@@ -218,26 +221,28 @@ if(validation_errors()!=NULL){
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 screenshot">
+                        	<li class="item-thumbs span3 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-04-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Pantai" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-04-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">COMING SOON</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-04.jpg" alt="Coming Soon!">
                             </li>
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 screenshot">
+                        	<li class="item-thumbs span3 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-05-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Gurun Pasir" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-05-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">COMING SOON</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-05.jpg" alt="Coming Soon!">
                             </li>
                         	<!-- End Item Project -->
                             
@@ -245,26 +250,28 @@ if(validation_errors()!=NULL){
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 screenshot">
+                        	<li class="item-thumbs span3 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-06-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Kota Metropolitan" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-06-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">COMING SOON</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-06.jpg" alt="Coming Soon!">
                             </li>
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 screenshot">
+                        	<li class="item-thumbs span3 image-wrap screenshot">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-07-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Pegunungan Salju" href="<?php echo base_url(); ?>assets/_include/img/work/full/image-07-full.jpg">
                                 	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                    <!--<span class="overlay-img-thumb font-icon-plus"></span>-->
+                                    <span class="overlay-text-thumb" style="width: 80%; padding-left: 10%; padding-right: 10%;">COMING SOON</span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="<?php echo base_url(); ?>assets/_include/img/work/thumbs/image-07.jpg" alt="Coming Soon!">
                             </li>
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3 video">
@@ -305,8 +312,8 @@ if(validation_errors()!=NULL){
     <div class="row">
         <div class="span12">
             <div class="title-page">
-                <h2 class="title">About Us</h2>
-                <h3 class="title-description">Developer of Little Prince Azkaa</h3>
+                <h2 class="title">Tentang Kami</h2>
+                <h3 class="title-description">Developer Game Little Prince Azkaa</h3>
             </div>
         </div>
     </div>
@@ -320,13 +327,12 @@ if(validation_errors()!=NULL){
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">CTO/Founder</span>
+                    <span class="overlay-text-thumb">System Analyst</span>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-01.jpg" alt="John Doe">
             </div>
             <h3 class="profile-name">Divi</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <p class="profile-description">Berpikirlah seakan-akan kelompok sebagai satu tubuh. Saling terikat dan tak dapat dipisahkan. Rencana tanpa persiapan sama dengan bunuh diri. Persiapan yang terlalu lama juga sia-sia. Anda harus berdiri di tengah-tengah agar membuat keduanya berjalan seimbang. Matangkan persiapan, Koordinasi, lalu Eksekusi.</p>
             	
             <div class="social">
             	<ul class="social-icons">
@@ -342,13 +348,12 @@ if(validation_errors()!=NULL){
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Creative Director</span>
+                    <span class="overlay-text-thumb">Game Programmer</span>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-02.jpg" alt="Jane Helf">
             </div>
             <h3 class="profile-name">Fikri</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <p class="profile-description">Hiduplah seperti memainkan sebuah game. Saat Anda lemah, Anda harus berjuang untuk menjadi lebih kuat. Jika Anda tidak dapat menahan pedihnya perjuangan, jangan salahkan jika kelak Anda menanggung pedihnya kelemahan.</p>
             	
             <div class="social">
             	<ul class="social-icons">
@@ -364,13 +369,12 @@ if(validation_errors()!=NULL){
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Lead Designer</span>
+                    <span class="overlay-text-thumb">Web Designer</span>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
             </div>
             <h3 class="profile-name">Usaid</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <p class="profile-description">“Aku ingin mencintaimu dengan sederhana… seperti kata yang tak sempat diucapkan kayu kepada api yang menjadikannya abu… Aku ingin mencintaimu dengan sederhana… seperti isyarat yang tak sempat dikirimkan awan kepada hujan yang menjadikannya tiada…” (Khalil Gibran)</p>
             	
             <div class="social">
             	<ul class="social-icons">
@@ -386,13 +390,12 @@ if(validation_errors()!=NULL){
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Lead Designer</span>
+                    <span class="overlay-text-thumb">Web Programmer</span>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-04.jpg" alt="Joshua Insanus">
             </div>
             <h3 class="profile-name">Putro</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <p class="profile-description">Lampaui pencapaian yeng telah Anda peroleh. Berevolusi dan menjadi lebih baik. Kreativitas sering didapat dengan cara yang tidak lazim. Jika Anda ingin menjadi kreatif, maka bersiap-siaplah menjadi tidak lazim. Orang lain sering menyebutnya tidak lazim. Namun saya, lebih senang menyebutnya EKSENTRIK.</p>
             	
             <div class="social">
             	<ul class="social-icons">
@@ -408,13 +411,12 @@ if(validation_errors()!=NULL){
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Lead Designer</span>
+                    <span class="overlay-text-thumb">DB Administrator</span>
                 </div>
                 <img src="<?php echo base_url(); ?>assets/_include/img/profile/profile-05.jpg" alt="Joshua Insanus">
             </div>
             <h3 class="profile-name">Azkaa</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <p class="profile-description">Jika Anda punya kendali atas data-data di dunia, Anda mungkin dapat memegang kendali masa depan. Hidup itu di masa lalu, masa kini dan masa depan bisa jadi hanyalah sebuah mimpi. Mimpi terbesarku adalah mengarungi ruang dan waktu. Karena sejatinya, Aku adalah Lelaki Pemimpi!</p>
             	
             <div class="social">
             	<ul class="social-icons">
@@ -452,8 +454,8 @@ if(validation_errors()!=NULL){
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <ul class="nav nav-tabs" id="myTab">
-                    <li class="active" style="float: left; display: inline; text-align : center; width : 49%; margin-top: 22px;"><a id="togglemurid" href="#tab1" data-toggle="tab" >LOGIN MURID</a></li>
-                    <li style="float: left; display: inline; text-align : center; width : 49%;"><a id="toggleguru" href="#tab2" data-toggle="tab" >LOGIN GURU</a></li>
+                    <li class="active" style="float: left; display: inline; text-align : center; width : 49%; margin-top: 22px;"><a id="togglemurid" href="#tab1" data-toggle="tab" >MASUK SEBAGAI MURID</a></li>
+                    <li style="float: left; display: inline; text-align : center; width : 49%;"><a id="toggleguru" href="#tab2" data-toggle="tab" >MASUK SEBAGAI GURU</a></li>
                 </ul>
             </div>
             <div class="modal-body">
@@ -496,7 +498,7 @@ if(validation_errors()!=NULL){
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 <ul class="nav nav-tabs" id="myTab">
-                    <li class="active" style="text-align : center; width : 100%;"><a href="#tab1" data-toggle="tab" >REGISTER</a></li>
+                    <li class="active" style="text-align : center; width : 100%;"><a href="#tab1" data-toggle="tab" >FORM PENDAFTARAN</a></li>
                 </ul>
             </div>
             <div class="modal-body">
