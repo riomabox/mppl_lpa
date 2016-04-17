@@ -16,10 +16,7 @@
           <td>Tahun Ajaran</td>
           <td><?php echo $k->tahun_ajaran1; ?>/<?php echo $k->tahun_ajaran2; ?></td>
           </tr>
-         <tr>
-          <td>Jumlah Murid</td>
-          <td>1</td>
-          </tr>
+         
        </table>
       <?php } ?>
         </div>

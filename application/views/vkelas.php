@@ -13,7 +13,6 @@
          <th>No</th>
          <th>Nama Kelas</th>
          <th>Tahun Ajaran</th>
-         <th>Jumlah Murid</th>
          
          <th></th>
          </tr>
@@ -32,7 +31,7 @@
              <td><?php echo $numb; ?></td>
              <td><?php echo $k->nama_kelas; ?></td>
              <td><?php echo $k->tahun_ajaran1; echo "/"; echo $k->tahun_ajaran2; ?></td>
-             <td><?php echo $numb;?></td>
+             
           
           
           <td>
