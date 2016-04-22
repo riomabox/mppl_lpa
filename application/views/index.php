@@ -445,13 +445,7 @@ if(validation_errors()!=NULL){
 
 <!-- Footer -->
 <footer>
-<<<<<<< .mine
 	<p class="credits">&copy;MPPL 2016. <span style="color: #DE5E60">Little Prince Azkaa Game</span> by <span style="color: #DE5E60">Little Prince Azkaa Team</span></p>
-||||||| .r21
-	<p class="credits">&copy;MPPL 2016. <a href="http://themes.alessioatzeni.com/html/brushed/" title="Brushed | Responsive One Page Template">Little Prince Azkaa Game</a> by <a href="#" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Little Prince Azkaa Team</a></p>
-=======
-	<p class="credits">&copy;MPPL 2016. <a href=# title="NO TITLE">Little Prince Azkaa Game</a> by <a href="#" title="GM Production">GM Production</a></p>
->>>>>>> .r24
 </footer>
 <!-- End Footer -->
 
